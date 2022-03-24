@@ -1,0 +1,11 @@
+{
+    "databaseName": "smart_home_db",
+    "databaseServer": "localhost",
+    "databasePort": 28015,
+    "databaseTables": [
+        "smarthm_admin_accounts",
+        "smarthm_user_accounts",
+        "sensors",
+        "actors"
+    ]
+}

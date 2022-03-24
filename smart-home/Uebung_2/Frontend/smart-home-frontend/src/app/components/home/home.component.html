@@ -1,0 +1,11 @@
+<h1 class="text-center">Welcome to the smart home!</h1>
+<div>
+  <p id="current-date">Today is: {{ currentDate | date: 'medium' }}</p>
+  <section>
+    <div class="example-button-row">
+      <button mat-raised-button color="primary" class="buttons" (click)="handleEnterAsAdminButtonClick()">Enter as admin</button>
+      <button mat-raised-button color="primary" class="buttons" (click)="handleEnterAsUserButtonClick()">Enter as user</button>
+    </div>
+  </section>
+  <img src="../assets/images/smarthome.png" id="footsteps_image" />
+</div>

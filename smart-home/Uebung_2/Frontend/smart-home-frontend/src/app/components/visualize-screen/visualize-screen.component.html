@@ -1,0 +1,30 @@
+<mat-card>
+    <mat-card-content>
+        <div class="entries-panel">
+            <h1 class="entries-color">SENSORS</h1>
+            <div *ngIf="currentSensors.length > 0">
+                <mat-list *ngFor="let sensor of currentSensors">
+                    <mat-list-item>
+                        <h2 class="entries-color"><b>Sensor {{sensor.id}}:</b> {{ sensor.value }} (Value)</h2>
+                        <button (click)="handleModifySensorButtonClick(sensor)"  *ngIf="determineSpecificUser() == 'Admin'"
+                        mat-raised-button color="primary" class="modify-button">Modify</button>
+                    </mat-list-item>
+                </mat-list>
+            </div>
+            <h1 class="entries-color">ACTORS</h1>
+            <div *ngIf="currentActors.length > 0">
+                <mat-list *ngFor="let actor of currentActors">
+                    <mat-list-item>
+                        <h2 class="entries-color"><b>Actor {{actor.id}}:</b> {{ actor.valueChange }} (value change)</h2>
+                        <button (click)="handleModifyActorButtonClick(actor)" *ngIf="determineSpecificUser() == 'Admin'" 
+                        mat-raised-button color="primary" class="modify-button">Modify</button>
+                    </mat-list-item>
+                </mat-list>
+            </div>
+            </div>
+            <div class="example-button-row">
+             <button class="buttons" (click)="handleModifyProfileButtonClick()" *ngIf="determineSpecificUser() == 'User'" mat-raised-button color="primary">Change profile</button>
+             <button class="buttons" (click)="handleLogOutButtonClick()"  mat-raised-button color="primary">Log out</button>
+            </div>
+    </mat-card-content>
+</mat-card>

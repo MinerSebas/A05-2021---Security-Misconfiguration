@@ -1,0 +1,21 @@
+<h1 mat-dialog-title>Change your username</h1>
+<div [formGroup]="changeUsernameForm" class="content-container form-group" mat-dialog-content>
+  <mat-form-field class="example-full-width" appearance="fill">
+    <input [(ngModel)]="userNameToChangeData.oldUsername" name="oldUsername" formControlName="oldUsername" matInput placeholder="Enter the old username" />
+    <div *ngIf="oldUsername?.invalid && oldUsername?.touched">
+      <small *ngIf="oldUsername?.errors?.['required']" class="text-danger">The username is required!</small>
+      <small *ngIf="oldUsername?.errors?.['minlength']" class="text-danger">The minimal length has to be 3!</small>
+    </div>
+  </mat-form-field>
+  <mat-form-field class="example-full-width" appearance="fill">
+    <input [(ngModel)]="userNameToChangeData.newUsername" name="newUsername" formControlName="newUsername" matInput placeholder="Enter the new username" />
+    <div *ngIf="newUsername?.invalid && newUsername?.touched">
+      <small *ngIf="newUsername?.errors?.['required']" class="text-danger">The username is required!</small>
+      <small *ngIf="newUsername?.errors?.['minlength']" class="text-danger">The minimal length has to be 3!</small>
+    </div>
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="handleOkButtonClick()" cdkFocusInitial>Ok</button>
+  <button mat-button (click)="handleCancelButtonClick()">Cancel</button>
+</div>

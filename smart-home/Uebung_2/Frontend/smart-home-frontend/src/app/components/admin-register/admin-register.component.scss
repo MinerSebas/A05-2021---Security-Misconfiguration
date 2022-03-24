@@ -1,0 +1,28 @@
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background: url('../../../assets/images/control_background.jpg');
+}
+
+.buttons {
+  margin-left: 10px;
+}
+
+.example-button-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.mat-form-field {
+  width: 100%;
+  min-width: 300px;
+}
+
+* {
+  box-sizing: border-box;
+}
