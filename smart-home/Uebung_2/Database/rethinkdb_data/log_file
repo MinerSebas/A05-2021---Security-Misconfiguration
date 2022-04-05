@@ -1400,3 +1400,227 @@
 2022-03-24T15:24:14.591107302 1.406659s notice: All client connections closed.
 2022-03-24T15:24:14.591107303 1.406660s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
 2022-03-24T15:24:14.616385100 1.432175s notice: Storage engine shut down.
+2022-04-05T17:27:21.050834800 0.023528s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2022-04-05T17:27:21.051835000 0.023931s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2022-04-05T17:27:21.051835001 0.023975s notice: Loading data from directory C:\\GitRepos\\A05-2021---Security-Misconfiguration\\smart-home\\Uebung_2\\Database\\rethinkdb_data
+2022-04-05T17:27:21.071834200 0.043591s info: Automatically using cache size of 8330 MB
+2022-04-05T17:27:21.076834800 0.048390s notice: Listening for intracluster connections on port 29015
+2022-04-05T17:27:21.192834000 0.165142s notice: Listening for client driver connections on port 28015
+2022-04-05T17:27:21.192834001 0.165263s notice: Listening for administrative HTTP connections on port 8080
+2022-04-05T17:27:21.192834002 0.165265s notice: Listening on cluster address: 127.0.0.1
+2022-04-05T17:27:21.192834003 0.165281s notice: Listening on driver address: 127.0.0.1
+2022-04-05T17:27:21.192834004 0.165282s notice: Listening on http address: 127.0.0.1
+2022-04-05T17:27:21.192834005 0.165283s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-04-05T17:27:21.192834006 0.165283s notice: Server ready, "LAPTOP_MR7RHJUT_nvu" 7b0857db-f076-4537-a723-c57445be54a1
+2022-04-05T17:27:22.123834500 1.095590s info: Table 0a62fd7c-7a42-4e2c-8a77-9af507d28aba: Starting a new Raft election for term 9.
+2022-04-05T17:27:22.127835000 1.100267s info: Table 0a62fd7c-7a42-4e2c-8a77-9af507d28aba: This server is Raft leader for term 9. Latest log index is 21.
+2022-04-05T17:27:22.185850800 1.157636s info: Table ddcbc30b-caad-408e-b224-28724c9b4dd9: Starting a new Raft election for term 7.
+2022-04-05T17:27:22.188836000 1.160738s info: Table ddcbc30b-caad-408e-b224-28724c9b4dd9: This server is Raft leader for term 7. Latest log index is 17.
+2022-04-05T17:27:22.450427900 1.422129s info: Table 52291cc9-499c-42f6-a0b9-02af8970dd02: Starting a new Raft election for term 8.
+2022-04-05T17:27:22.453427400 1.425162s info: Table 52291cc9-499c-42f6-a0b9-02af8970dd02: This server is Raft leader for term 8. Latest log index is 19.
+2022-04-05T17:27:22.876873600 1.848559s info: Table e8dcf1fb-e3eb-445b-b11a-fd0d1ae9dafd: Starting a new Raft election for term 50.
+2022-04-05T17:27:22.882860300 1.854961s info: Table e8dcf1fb-e3eb-445b-b11a-fd0d1ae9dafd: This server is Raft leader for term 50. Latest log index is 146.
+2022-04-05T17:27:23.062348700 2.034172s info: Table a1e4b919-636d-4f96-97e1-3a86df7c8b2e: Starting a new Raft election for term 50.
+2022-04-05T17:27:23.062348701 2.034225s info: Table 99c575e0-085c-41db-8933-4896a9552027: Starting a new Raft election for term 51.
+2022-04-05T17:27:23.065360300 2.037289s info: Table a1e4b919-636d-4f96-97e1-3a86df7c8b2e: This server is Raft leader for term 50. Latest log index is 146.
+2022-04-05T17:27:23.065360301 2.037324s info: Table 99c575e0-085c-41db-8933-4896a9552027: This server is Raft leader for term 51. Latest log index is 147.
+2022-04-05T17:27:23.154672700 2.126436s info: Table e9aafa51-b7a6-4ab4-a056-91af27dc0ae1: Starting a new Raft election for term 9.
+2022-04-05T17:27:23.158672700 2.130306s info: Table e9aafa51-b7a6-4ab4-a056-91af27dc0ae1: This server is Raft leader for term 9. Latest log index is 21.
+2022-04-05T17:27:23.564813700 2.536430s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2022-04-05T17:27:36.088096500 15.059789s notice: Server got Control-C; shutting down...
+2022-04-05T17:27:36.088096501 15.059933s notice: Shutting down client connections...
+2022-04-05T17:27:36.088096502 15.060056s notice: All client connections closed.
+2022-04-05T17:27:36.088096503 15.060057s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-04-05T17:27:36.104519900 15.076481s notice: Storage engine shut down.
+2022-04-05T17:27:59.047289800 0.010486s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2022-04-05T17:27:59.047289801 0.010727s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2022-04-05T17:27:59.047289802 0.010860s notice: Loading data from directory C:\\GitRepos\\A05-2021---Security-Misconfiguration\\smart-home\\Uebung_2\\Database\\rethinkdb_data
+2022-04-05T17:27:59.055325300 0.019332s info: Automatically using cache size of 8616 MB
+2022-04-05T17:27:59.057325600 0.020905s notice: Listening for intracluster connections on port 29015
+2022-04-05T17:27:59.150326300 0.113590s notice: Listening for client driver connections on port 28015
+2022-04-05T17:27:59.150326301 0.113697s notice: Listening for administrative HTTP connections on port 8080
+2022-04-05T17:27:59.150326302 0.113698s notice: Listening on cluster address: 127.0.0.1
+2022-04-05T17:27:59.150326303 0.113721s notice: Listening on driver address: 127.0.0.1
+2022-04-05T17:27:59.150326304 0.113722s notice: Listening on http address: 127.0.0.1
+2022-04-05T17:27:59.150326305 0.113723s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-04-05T17:27:59.150326306 0.113723s notice: Server ready, "LAPTOP_MR7RHJUT_nvu" 7b0857db-f076-4537-a723-c57445be54a1
+2022-04-05T17:27:59.883783700 0.847127s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2022-04-05T17:28:00.237510800 1.201247s info: Table e8dcf1fb-e3eb-445b-b11a-fd0d1ae9dafd: Starting a new Raft election for term 51.
+2022-04-05T17:28:00.242414700 1.205647s info: Table e8dcf1fb-e3eb-445b-b11a-fd0d1ae9dafd: This server is Raft leader for term 51. Latest log index is 149.
+2022-04-05T17:28:00.316195600 1.279533s info: Table 52291cc9-499c-42f6-a0b9-02af8970dd02: Starting a new Raft election for term 9.
+2022-04-05T17:28:00.320129800 1.283379s info: Table 52291cc9-499c-42f6-a0b9-02af8970dd02: This server is Raft leader for term 9. Latest log index is 22.
+2022-04-05T17:28:00.347454800 1.311291s info: Table e9aafa51-b7a6-4ab4-a056-91af27dc0ae1: Starting a new Raft election for term 10.
+2022-04-05T17:28:00.352255400 1.315613s info: Table e9aafa51-b7a6-4ab4-a056-91af27dc0ae1: This server is Raft leader for term 10. Latest log index is 24.
+2022-04-05T17:28:00.480256200 1.443968s info: Table 0a62fd7c-7a42-4e2c-8a77-9af507d28aba: Starting a new Raft election for term 10.
+2022-04-05T17:28:00.485198400 1.449292s info: Table 0a62fd7c-7a42-4e2c-8a77-9af507d28aba: This server is Raft leader for term 10. Latest log index is 24.
+2022-04-05T17:28:00.628102100 1.591849s info: Table ddcbc30b-caad-408e-b224-28724c9b4dd9: Starting a new Raft election for term 8.
+2022-04-05T17:28:00.632487100 1.596378s info: Table ddcbc30b-caad-408e-b224-28724c9b4dd9: This server is Raft leader for term 8. Latest log index is 20.
+2022-04-05T17:28:00.637511000 1.600971s info: Table a1e4b919-636d-4f96-97e1-3a86df7c8b2e: Starting a new Raft election for term 51.
+2022-04-05T17:28:00.641526200 1.605232s info: Table a1e4b919-636d-4f96-97e1-3a86df7c8b2e: This server is Raft leader for term 51. Latest log index is 149.
+2022-04-05T17:28:00.815815700 1.779229s info: Table 99c575e0-085c-41db-8933-4896a9552027: Starting a new Raft election for term 52.
+2022-04-05T17:28:00.819110300 1.782604s info: Table 99c575e0-085c-41db-8933-4896a9552027: This server is Raft leader for term 52. Latest log index is 150.
+2022-04-05T17:35:22.839346000 443.802822s notice: Server got Control-C; shutting down...
+2022-04-05T17:35:22.839346001 443.803141s notice: Shutting down client connections...
+2022-04-05T17:35:22.839346002 443.803305s notice: All client connections closed.
+2022-04-05T17:35:22.839346003 443.803307s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-04-05T17:35:22.851345200 443.815289s notice: Storage engine shut down.
+2022-04-05T18:01:59.887110900 0.011877s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2022-04-05T18:01:59.888110600 0.012092s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2022-04-05T18:01:59.888110601 0.012310s notice: Loading data from directory C:\\GitRepos\\A05-2021---Security-Misconfiguration\\smart-home\\Uebung_2\\Database\\rethinkdb_data
+2022-04-05T18:01:59.896110700 0.020382s info: Automatically using cache size of 7684 MB
+2022-04-05T18:01:59.897110600 0.021950s notice: Listening for intracluster connections on port 29015
+2022-04-05T18:01:59.994110200 0.118281s notice: Listening for client driver connections on port 28015
+2022-04-05T18:01:59.994110201 0.118387s notice: Listening for administrative HTTP connections on port 8080
+2022-04-05T18:01:59.994110202 0.118389s notice: Listening on cluster address: 127.0.0.1
+2022-04-05T18:01:59.994110203 0.118402s notice: Listening on driver address: 127.0.0.1
+2022-04-05T18:01:59.994110204 0.118402s notice: Listening on http address: 127.0.0.1
+2022-04-05T18:01:59.994110205 0.118403s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-04-05T18:01:59.994110206 0.118403s notice: Server ready, "LAPTOP_MR7RHJUT_nvu" 7b0857db-f076-4537-a723-c57445be54a1
+2022-04-05T18:02:00.717828500 0.842344s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2022-04-05T18:02:01.109916500 1.234337s info: Table e9aafa51-b7a6-4ab4-a056-91af27dc0ae1: Starting a new Raft election for term 11.
+2022-04-05T18:02:01.116837000 1.240869s info: Table e9aafa51-b7a6-4ab4-a056-91af27dc0ae1: This server is Raft leader for term 11. Latest log index is 27.
+2022-04-05T18:02:01.264589200 1.389002s info: Table e8dcf1fb-e3eb-445b-b11a-fd0d1ae9dafd: Starting a new Raft election for term 52.
+2022-04-05T18:02:01.267507500 1.391960s info: Table e8dcf1fb-e3eb-445b-b11a-fd0d1ae9dafd: This server is Raft leader for term 52. Latest log index is 152.
+2022-04-05T18:02:01.435775500 1.560195s info: Table 0a62fd7c-7a42-4e2c-8a77-9af507d28aba: Starting a new Raft election for term 11.
+2022-04-05T18:02:01.435775501 1.560222s info: Table 99c575e0-085c-41db-8933-4896a9552027: Starting a new Raft election for term 53.
+2022-04-05T18:02:01.438702200 1.563228s info: Table 0a62fd7c-7a42-4e2c-8a77-9af507d28aba: This server is Raft leader for term 11. Latest log index is 27.
+2022-04-05T18:02:01.439702100 1.564433s info: Table 99c575e0-085c-41db-8933-4896a9552027: This server is Raft leader for term 53. Latest log index is 153.
+2022-04-05T18:02:01.466984800 1.591239s info: Table 52291cc9-499c-42f6-a0b9-02af8970dd02: Starting a new Raft election for term 10.
+2022-04-05T18:02:01.469994300 1.594308s info: Table 52291cc9-499c-42f6-a0b9-02af8970dd02: This server is Raft leader for term 10. Latest log index is 25.
+2022-04-05T18:02:01.685962500 1.810166s info: Table ddcbc30b-caad-408e-b224-28724c9b4dd9: Starting a new Raft election for term 9.
+2022-04-05T18:02:01.691467600 1.815641s info: Table ddcbc30b-caad-408e-b224-28724c9b4dd9: This server is Raft leader for term 9. Latest log index is 23.
+2022-04-05T18:02:01.750320800 1.874444s info: Table a1e4b919-636d-4f96-97e1-3a86df7c8b2e: Starting a new Raft election for term 52.
+2022-04-05T18:02:01.752321100 1.877104s info: Table a1e4b919-636d-4f96-97e1-3a86df7c8b2e: This server is Raft leader for term 52. Latest log index is 152.
+2022-04-05T18:07:51.046107100 351.170600s notice: Server got Control-C; shutting down...
+2022-04-05T18:07:51.046107101 351.170898s notice: Shutting down client connections...
+2022-04-05T18:07:51.046107102 351.170978s notice: All client connections closed.
+2022-04-05T18:07:51.046107103 351.170979s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-04-05T18:07:51.061107800 351.185745s notice: Storage engine shut down.
+2022-04-05T18:20:59.748168600 0.012226s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2022-04-05T18:20:59.748168601 0.012333s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2022-04-05T18:20:59.748168602 0.012365s notice: Loading data from directory C:\\GitRepos\\A05-2021---Security-Misconfiguration\\smart-home\\Uebung_2\\Database\\rethinkdb_data
+2022-04-05T18:20:59.760149900 0.023712s info: Automatically using cache size of 7483 MB
+2022-04-05T18:20:59.761149900 0.025448s notice: Listening for intracluster connections on port 29015
+2022-04-05T18:20:59.858265300 0.122670s notice: Listening for client driver connections on port 28015
+2022-04-05T18:20:59.858265301 0.122774s notice: Listening for administrative HTTP connections on port 8080
+2022-04-05T18:20:59.859265300 0.122981s notice: Listening on cluster address: 127.0.0.1
+2022-04-05T18:20:59.859265301 0.122981s notice: Listening on driver address: 127.0.0.1
+2022-04-05T18:20:59.859265302 0.122982s notice: Listening on http address: 127.0.0.1
+2022-04-05T18:20:59.859265303 0.122983s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-04-05T18:20:59.859265304 0.122984s notice: Server ready, "LAPTOP_MR7RHJUT_nvu" 7b0857db-f076-4537-a723-c57445be54a1
+2022-04-05T18:21:00.636162600 0.899767s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2022-04-05T18:21:00.888952100 1.153026s info: Table e8dcf1fb-e3eb-445b-b11a-fd0d1ae9dafd: Starting a new Raft election for term 53.
+2022-04-05T18:21:00.888952101 1.153053s info: Table a1e4b919-636d-4f96-97e1-3a86df7c8b2e: Starting a new Raft election for term 53.
+2022-04-05T18:21:00.894952100 1.159079s info: Table e8dcf1fb-e3eb-445b-b11a-fd0d1ae9dafd: This server is Raft leader for term 53. Latest log index is 155.
+2022-04-05T18:21:00.896965300 1.160622s info: Table a1e4b919-636d-4f96-97e1-3a86df7c8b2e: This server is Raft leader for term 53. Latest log index is 155.
+2022-04-05T18:21:01.044857500 1.308757s info: Table 0a62fd7c-7a42-4e2c-8a77-9af507d28aba: Starting a new Raft election for term 12.
+2022-04-05T18:21:01.047855100 1.311941s info: Table 0a62fd7c-7a42-4e2c-8a77-9af507d28aba: This server is Raft leader for term 12. Latest log index is 30.
+2022-04-05T18:21:01.201711500 1.465508s info: Table 52291cc9-499c-42f6-a0b9-02af8970dd02: Starting a new Raft election for term 11.
+2022-04-05T18:21:01.206361600 1.470155s info: Table 52291cc9-499c-42f6-a0b9-02af8970dd02: This server is Raft leader for term 11. Latest log index is 28.
+2022-04-05T18:21:01.359548700 1.623363s info: Table e9aafa51-b7a6-4ab4-a056-91af27dc0ae1: Starting a new Raft election for term 12.
+2022-04-05T18:21:01.362731800 1.626477s info: Table e9aafa51-b7a6-4ab4-a056-91af27dc0ae1: This server is Raft leader for term 12. Latest log index is 30.
+2022-04-05T18:21:01.467716900 1.731797s info: Table ddcbc30b-caad-408e-b224-28724c9b4dd9: Starting a new Raft election for term 10.
+2022-04-05T18:21:01.471689800 1.735721s info: Table ddcbc30b-caad-408e-b224-28724c9b4dd9: This server is Raft leader for term 10. Latest log index is 26.
+2022-04-05T18:21:01.669430700 1.933299s info: Table 99c575e0-085c-41db-8933-4896a9552027: Starting a new Raft election for term 54.
+2022-04-05T18:21:01.672429600 1.936352s info: Table 99c575e0-085c-41db-8933-4896a9552027: This server is Raft leader for term 54. Latest log index is 156.
+2022-04-05T18:24:00.114502400 180.378919s notice: Server got Control-C; shutting down...
+2022-04-05T18:24:00.115508600 180.379139s notice: Shutting down client connections...
+2022-04-05T18:24:00.115508601 180.379216s notice: All client connections closed.
+2022-04-05T18:24:00.115508602 180.379218s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-04-05T18:24:00.127508600 180.391933s notice: Storage engine shut down.
+2022-04-05T19:31:02.677989300 0.010510s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2022-04-05T19:31:02.677989301 0.010624s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2022-04-05T19:31:02.677989302 0.010661s notice: Loading data from directory C:\\GitRepos\\A05-2021---Security-Misconfiguration\\smart-home\\Uebung_2\\Database\\rethinkdb_data
+2022-04-05T19:31:02.688988500 0.021391s info: Automatically using cache size of 8884 MB
+2022-04-05T19:31:02.689988500 0.023004s notice: Listening for intracluster connections on port 29015
+2022-04-05T19:31:02.783988800 0.116155s notice: Listening for client driver connections on port 28015
+2022-04-05T19:31:02.783988801 0.116254s notice: Listening for administrative HTTP connections on port 8080
+2022-04-05T19:31:02.783988802 0.116256s notice: Listening on cluster address: 127.0.0.1
+2022-04-05T19:31:02.783988803 0.116256s notice: Listening on driver address: 127.0.0.1
+2022-04-05T19:31:02.783988804 0.116271s notice: Listening on http address: 127.0.0.1
+2022-04-05T19:31:02.783988805 0.116271s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-04-05T19:31:02.783988806 0.116273s notice: Server ready, "LAPTOP_MR7RHJUT_nvu" 7b0857db-f076-4537-a723-c57445be54a1
+2022-04-05T19:31:03.642341600 0.975322s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2022-04-05T19:31:03.783146300 1.115274s info: Table 52291cc9-499c-42f6-a0b9-02af8970dd02: Starting a new Raft election for term 12.
+2022-04-05T19:31:03.785143000 1.117757s info: Table 52291cc9-499c-42f6-a0b9-02af8970dd02: This server is Raft leader for term 12. Latest log index is 31.
+2022-04-05T19:31:03.955113600 1.287460s info: Table 0a62fd7c-7a42-4e2c-8a77-9af507d28aba: Starting a new Raft election for term 13.
+2022-04-05T19:31:03.955113601 1.287486s info: Table a1e4b919-636d-4f96-97e1-3a86df7c8b2e: Starting a new Raft election for term 54.
+2022-04-05T19:31:03.958113000 1.290280s info: Table 0a62fd7c-7a42-4e2c-8a77-9af507d28aba: This server is Raft leader for term 13. Latest log index is 33.
+2022-04-05T19:31:03.959113000 1.292106s info: Table a1e4b919-636d-4f96-97e1-3a86df7c8b2e: This server is Raft leader for term 54. Latest log index is 158.
+2022-04-05T19:31:04.081034400 1.413094s info: Table ddcbc30b-caad-408e-b224-28724c9b4dd9: Starting a new Raft election for term 11.
+2022-04-05T19:31:04.085158700 1.417366s info: Table ddcbc30b-caad-408e-b224-28724c9b4dd9: This server is Raft leader for term 11. Latest log index is 29.
+2022-04-05T19:31:04.299183500 1.631935s info: Table e8dcf1fb-e3eb-445b-b11a-fd0d1ae9dafd: Starting a new Raft election for term 54.
+2022-04-05T19:31:04.306603100 1.638958s info: Table e8dcf1fb-e3eb-445b-b11a-fd0d1ae9dafd: This server is Raft leader for term 54. Latest log index is 158.
+2022-04-05T19:31:04.469700200 1.801992s info: Table e9aafa51-b7a6-4ab4-a056-91af27dc0ae1: Starting a new Raft election for term 13.
+2022-04-05T19:31:04.472564400 1.805311s info: Table e9aafa51-b7a6-4ab4-a056-91af27dc0ae1: This server is Raft leader for term 13. Latest log index is 33.
+2022-04-05T19:31:04.532003200 1.864361s info: Table 99c575e0-085c-41db-8933-4896a9552027: Starting a new Raft election for term 55.
+2022-04-05T19:31:04.540808700 1.873818s info: Table 99c575e0-085c-41db-8933-4896a9552027: This server is Raft leader for term 55. Latest log index is 159.
+2022-04-05T19:47:58.065158600 1015.397422s notice: Server got Control-C; shutting down...
+2022-04-05T19:47:58.065158601 1015.397647s notice: Shutting down client connections...
+2022-04-05T19:47:58.065158602 1015.397705s notice: All client connections closed.
+2022-04-05T19:47:58.065158603 1015.397706s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-04-05T19:47:58.078580600 1015.410878s notice: Storage engine shut down.
+2022-04-05T19:47:59.594152200 0.011030s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2022-04-05T19:47:59.594152201 0.011126s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2022-04-05T19:47:59.594152202 0.011160s notice: Loading data from directory C:\\GitRepos\\A05-2021---Security-Misconfiguration\\smart-home\\Uebung_2\\Database\\rethinkdb_data
+2022-04-05T19:47:59.602151400 0.019480s info: Automatically using cache size of 8891 MB
+2022-04-05T19:47:59.604151900 0.021055s notice: Listening for intracluster connections on port 29015
+2022-04-05T19:47:59.701151900 0.118480s notice: Listening for client driver connections on port 28015
+2022-04-05T19:47:59.701151901 0.118587s notice: Listening for administrative HTTP connections on port 8080
+2022-04-05T19:47:59.701151902 0.118588s notice: Listening on cluster address: 127.0.0.1
+2022-04-05T19:47:59.701151903 0.118602s notice: Listening on driver address: 127.0.0.1
+2022-04-05T19:47:59.701151904 0.118603s notice: Listening on http address: 127.0.0.1
+2022-04-05T19:47:59.701151905 0.118603s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-04-05T19:47:59.701151906 0.118604s notice: Server ready, "LAPTOP_MR7RHJUT_nvu" 7b0857db-f076-4537-a723-c57445be54a1
+2022-04-05T19:48:00.477360100 0.894172s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2022-04-05T19:48:00.713352400 1.130198s info: Table ddcbc30b-caad-408e-b224-28724c9b4dd9: Starting a new Raft election for term 12.
+2022-04-05T19:48:00.718360500 1.135446s info: Table ddcbc30b-caad-408e-b224-28724c9b4dd9: This server is Raft leader for term 12. Latest log index is 32.
+2022-04-05T19:48:00.929484800 1.346667s info: Table e9aafa51-b7a6-4ab4-a056-91af27dc0ae1: Starting a new Raft election for term 14.
+2022-04-05T19:48:00.933028800 1.350658s info: Table e9aafa51-b7a6-4ab4-a056-91af27dc0ae1: This server is Raft leader for term 14. Latest log index is 36.
+2022-04-05T19:48:01.039177000 1.456430s info: Table e8dcf1fb-e3eb-445b-b11a-fd0d1ae9dafd: Starting a new Raft election for term 55.
+2022-04-05T19:48:01.043174500 1.460269s info: Table e8dcf1fb-e3eb-445b-b11a-fd0d1ae9dafd: This server is Raft leader for term 55. Latest log index is 161.
+2022-04-05T19:48:01.333181700 1.750136s info: Table 0a62fd7c-7a42-4e2c-8a77-9af507d28aba: Starting a new Raft election for term 14.
+2022-04-05T19:48:01.337048000 1.753943s info: Table 0a62fd7c-7a42-4e2c-8a77-9af507d28aba: This server is Raft leader for term 14. Latest log index is 36.
+2022-04-05T19:48:01.444129800 1.861323s info: Table 52291cc9-499c-42f6-a0b9-02af8970dd02: Starting a new Raft election for term 13.
+2022-04-05T19:48:01.449511000 1.866492s info: Table 52291cc9-499c-42f6-a0b9-02af8970dd02: This server is Raft leader for term 13. Latest log index is 34.
+2022-04-05T19:48:01.552188200 1.968907s info: Table 99c575e0-085c-41db-8933-4896a9552027: Starting a new Raft election for term 56.
+2022-04-05T19:48:01.557189400 1.974052s info: Table 99c575e0-085c-41db-8933-4896a9552027: This server is Raft leader for term 56. Latest log index is 162.
+2022-04-05T19:48:01.662135500 2.079191s info: Table a1e4b919-636d-4f96-97e1-3a86df7c8b2e: Starting a new Raft election for term 55.
+2022-04-05T19:48:01.668395200 2.085101s info: Table a1e4b919-636d-4f96-97e1-3a86df7c8b2e: This server is Raft leader for term 55. Latest log index is 161.
+2022-04-05T19:59:08.935763400 669.353027s notice: Server got Control-C; shutting down...
+2022-04-05T19:59:08.935763401 669.353376s notice: Shutting down client connections...
+2022-04-05T19:59:08.935763402 669.353431s notice: All client connections closed.
+2022-04-05T19:59:08.935763403 669.353432s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-04-05T19:59:08.948765600 669.365502s notice: Storage engine shut down.
+2022-04-05T19:59:10.218081400 0.011487s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2022-04-05T19:59:10.219085600 0.011666s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2022-04-05T19:59:10.219085601 0.012004s notice: Loading data from directory C:\\GitRepos\\A05-2021---Security-Misconfiguration\\smart-home\\Uebung_2\\Database\\rethinkdb_data
+2022-04-05T19:59:10.227085500 0.020156s info: Automatically using cache size of 8803 MB
+2022-04-05T19:59:10.229086100 0.021737s notice: Listening for intracluster connections on port 29015
+2022-04-05T19:59:10.315086200 0.108471s notice: Listening for client driver connections on port 28015
+2022-04-05T19:59:10.316084900 0.108567s notice: Listening for administrative HTTP connections on port 8080
+2022-04-05T19:59:10.316084901 0.108569s notice: Listening on cluster address: 127.0.0.1
+2022-04-05T19:59:10.316084902 0.108584s notice: Listening on driver address: 127.0.0.1
+2022-04-05T19:59:10.316084903 0.108585s notice: Listening on http address: 127.0.0.1
+2022-04-05T19:59:10.316084904 0.108586s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-04-05T19:59:10.316084905 0.108586s notice: Server ready, "LAPTOP_MR7RHJUT_nvu" 7b0857db-f076-4537-a723-c57445be54a1
+2022-04-05T19:59:11.092425300 0.885580s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2022-04-05T19:59:11.317494700 1.110534s info: Table 0a62fd7c-7a42-4e2c-8a77-9af507d28aba: Starting a new Raft election for term 15.
+2022-04-05T19:59:11.322502000 1.115720s info: Table 0a62fd7c-7a42-4e2c-8a77-9af507d28aba: This server is Raft leader for term 15. Latest log index is 39.
+2022-04-05T19:59:11.426198800 1.218931s info: Table ddcbc30b-caad-408e-b224-28724c9b4dd9: Starting a new Raft election for term 13.
+2022-04-05T19:59:11.430482900 1.223130s info: Table ddcbc30b-caad-408e-b224-28724c9b4dd9: This server is Raft leader for term 13. Latest log index is 35.
+2022-04-05T19:59:11.504233500 1.297306s info: Table 52291cc9-499c-42f6-a0b9-02af8970dd02: Starting a new Raft election for term 14.
+2022-04-05T19:59:11.508922100 1.301957s info: Table 52291cc9-499c-42f6-a0b9-02af8970dd02: This server is Raft leader for term 14. Latest log index is 37.
+2022-04-05T19:59:11.565829400 1.358973s info: Table e8dcf1fb-e3eb-445b-b11a-fd0d1ae9dafd: Starting a new Raft election for term 56.
+2022-04-05T19:59:11.572023300 1.365453s info: Table e8dcf1fb-e3eb-445b-b11a-fd0d1ae9dafd: This server is Raft leader for term 56. Latest log index is 164.
+2022-04-05T19:59:11.745618800 1.538189s info: Table a1e4b919-636d-4f96-97e1-3a86df7c8b2e: Starting a new Raft election for term 56.
+2022-04-05T19:59:11.748389300 1.541484s info: Table a1e4b919-636d-4f96-97e1-3a86df7c8b2e: This server is Raft leader for term 56. Latest log index is 164.
+2022-04-05T19:59:12.029131300 1.821894s info: Table 99c575e0-085c-41db-8933-4896a9552027: Starting a new Raft election for term 57.
+2022-04-05T19:59:12.032156800 1.824752s info: Table 99c575e0-085c-41db-8933-4896a9552027: This server is Raft leader for term 57. Latest log index is 165.
+2022-04-05T19:59:12.202113500 1.994846s info: Table e9aafa51-b7a6-4ab4-a056-91af27dc0ae1: Starting a new Raft election for term 15.
+2022-04-05T19:59:12.205177200 1.997714s info: Table e9aafa51-b7a6-4ab4-a056-91af27dc0ae1: This server is Raft leader for term 15. Latest log index is 39.
+2022-04-05T20:02:54.234055400 224.027211s notice: Server got Control-C; shutting down...
+2022-04-05T20:02:54.234055401 224.027488s notice: Shutting down client connections...
+2022-04-05T20:02:54.235048000 224.027559s notice: All client connections closed.
+2022-04-05T20:02:54.235048001 224.027560s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-04-05T20:02:54.247389100 224.040591s notice: Storage engine shut down.
