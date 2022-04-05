@@ -9,13 +9,15 @@
 
 .buttons {
   margin-left: 10px;
+  margin-bottom: 10px;
+  width: 100%;
 }
 
-.example-button-row {
+.example-button-col {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .mat-form-field {

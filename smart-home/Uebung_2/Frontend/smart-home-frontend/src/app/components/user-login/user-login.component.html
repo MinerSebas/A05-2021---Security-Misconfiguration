@@ -15,7 +15,7 @@
   
           <p>
             <mat-form-field>
-              <input [(ngModel)]="user.passWord" placeholder="Enter your password" type="password" id="passWord" name="passWord" matInput formControlName="passWord" required />
+              <input [(ngModel)]="user.passWord" placeholder="Enter your password" id="passWord" name="passWord" matInput formControlName="passWord" required />
               <div *ngIf="passWord?.invalid && passWord?.touched">
                 <small *ngIf="passWord?.errors?.['required']" class="text-danger">The password is required!</small>
                 <small *ngIf="passWord?.errors?.['minlength']" class="text-danger">The password has to contain at least 8 characters!</small>
@@ -25,7 +25,7 @@
               </div>
             </mat-form-field>
           </p>
-          <div class="example-button-row">
+          <div class="example-button-col">
             <button mat-raised-button color="primary" class="buttons" (click)="handleSubmitButtonClick()">Submit</button>
             <button mat-raised-button color="primary" class="buttons" (click)="handleCreateAccountButtonClick()">Create account</button>
           </div>

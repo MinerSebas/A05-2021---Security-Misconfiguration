@@ -56,9 +56,13 @@ export class ChangeUserProfileController implements interfaces.Controller {
         return response.status(400).json({ error: passwordErrorMessage });
       }
 
+      var hashedPassword = this.passWordHashingService.hash(request.body.oldPassword);
+
       if (!this.passWordHashingService.isPasswordHashed(request.body.oldPassword, userAccounts[0].passWord)) {
         return response.status(400).json({
-          error: `The old password \"${request.body.oldPassword}\" and the \"${userAccounts[0].passWord}\" password found in the database do not match!`
+          error: `The old password \"${request.body.oldPassword}\" 
+          with the hash \"${hashedPassword}\"
+           and the hash \"${userAccounts[0].passWord}\" of the password found in the database do not match!`
         });
       }
 

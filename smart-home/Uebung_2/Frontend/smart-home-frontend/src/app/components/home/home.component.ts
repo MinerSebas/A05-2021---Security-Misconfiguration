@@ -8,9 +8,9 @@ import { Router } from '@angular/router';
 })
 
 export class HomeComponent {
-  private adminRegisterNavigation: string[] = ['/admin_register'];
+  private adminLoginNavigation: string[] = ['/admin_login'];
 
-  private userRegisterNavigation: string[] = ['/user_register'];
+  private userLoginNavigation: string[] = ['/user_login'];
 
   constructor(private router: Router) {
     this.changeDate();
@@ -19,11 +19,11 @@ export class HomeComponent {
   public currentDate = new Date();
 
   public handleEnterAsAdminButtonClick(): void {
-    this.router.navigate(this.adminRegisterNavigation);
+    this.router.navigate(this.adminLoginNavigation);
   }
 
   public handleEnterAsUserButtonClick(): void {
-    this.router.navigate(this.userRegisterNavigation);
+    this.router.navigate(this.userLoginNavigation);
   }
 
   private changeDate(): void {

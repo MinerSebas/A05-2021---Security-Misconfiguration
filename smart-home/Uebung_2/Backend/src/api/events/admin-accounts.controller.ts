@@ -53,9 +53,12 @@ export class AdminAccountsController implements interfaces.Controller {
           });
         }
 
+        var passwordHash = this.passWordHashingService.hash(passWord);
+
         if (!this.passWordHashingService.isPasswordHashed(passWord, result[0].passWord)) {
           return response.status(400).json({
-            error: `The password \"${passWord}\" does not hash to \"${result[0].passWord}\"!`
+            error: `The password \"${passWord}\" with the hash
+            \"${passwordHash}\", does not match the hash \"${result[0].passWord}\" of the stored password!`
           });
         }
 
