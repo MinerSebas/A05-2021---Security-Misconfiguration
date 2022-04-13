@@ -1,6 +1,0 @@
-{
-  "databaseName": "SecurityMisconfigurationDB",
-  "databaseServer": "localhost",
-  "databasePort": 49154,
-  "databaseTables": ["users"]
-}
