@@ -1,3 +1,4 @@
 {
-  "backendPort": 3000
+  "backendPort": 3000,
+  "debug" : true
 }

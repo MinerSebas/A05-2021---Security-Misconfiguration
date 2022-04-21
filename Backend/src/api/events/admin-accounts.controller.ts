@@ -10,6 +10,7 @@ import { Sensor } from '../../models/sensor.model';
 import { SensorsService } from '../../core/services/sensors.service';
 import { ActorsService } from '../../core/services/actors.service';
 import { Actor } from '../../models/actor.model';
+import * as backendConfiguration from '../../configuration/backend-config.json';
 
 @controller('/admin')
 @injectable()
@@ -56,10 +57,16 @@ export class AdminAccountsController implements interfaces.Controller {
         var passwordHash = this.passWordHashingService.hash(passWord);
 
         if (!this.passWordHashingService.isPasswordHashed(passWord, result[0].passWord)) {
-          return response.status(400).json({
-            error: `The password \"${passWord}\" with the hash
-            \"${passwordHash}\", does not match the hash \"${result[0].passWord}\" of the stored password!`
-          });
+          if (backendConfiguration.debug) {
+            return response.status(400).json({
+              error: `The password \"${passWord}\" with the hash
+              \"${passwordHash}\", does not match the hash \"${result[0].passWord}\" of the stored password!`
+            });
+          } else {
+            return response.status(400).json({
+              error: `The password is incorrect.`
+            });
+          }
         }
 
         result[0].passWord = passWord;

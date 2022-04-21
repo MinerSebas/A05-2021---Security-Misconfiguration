@@ -10,6 +10,7 @@ import { UserAccount } from '../../models/user-account.model';
 import { IdGeneratorService } from '../../core/services/id-generator.service';
 import { SensorsService } from '../../core/services/sensors.service';
 import { ActorsService } from '../../core/services/actors.service';
+import * as backendConfiguration from '../../configuration/backend-config.json';
 
 @controller('/user')
 @injectable()
@@ -56,10 +57,16 @@ export class UserAccountsController implements interfaces.Controller {
         var passwordHash = this.passWordHashingService.hash(passWord);
 
         if (!this.passWordHashingService.isPasswordHashed(passWord, result[0].passWord)) {
-          return response.status(400).json({
-            error: `The password \"${passWord}\" with the hash
-            \"${passwordHash}\", does not match the hash \"${result[0].passWord}\" of the stored password!`
-          });
+          if (backendConfiguration.debug) {
+            return response.status(400).json({
+              error: `The password \"${passWord}\" with the hash
+              \"${passwordHash}\", does not match the hash \"${result[0].passWord}\" of the stored password!`
+            });
+          } else {
+            return response.status(400).json({
+              error: `The password is incorrect.`
+            });
+          }
         }
 
         result[0].passWord = passWord;
