@@ -1624,3 +1624,32 @@
 2022-04-05T20:02:54.235048000 224.027559s notice: All client connections closed.
 2022-04-05T20:02:54.235048001 224.027560s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
 2022-04-05T20:02:54.247389100 224.040591s notice: Storage engine shut down.
+2022-05-09T16:21:33.644907900 0.010693s notice: In recursion: removing file 'D:\\Fh\\4. Semester\\security\\Solve\\A05-2021---Security-Misconfiguration-main\\A05-2021---Security-Misconfiguration\\Database\\rethinkdb_data\\tmp'
+2022-05-09T16:21:33.645909800 0.011436s warn: Trying to delete non-existent file 'D:\\Fh\\4. Semester\\security\\Solve\\A05-2021---Security-Misconfiguration-main\\A05-2021---Security-Misconfiguration\\Database\\rethinkdb_data\\tmp'
+2022-05-09T16:21:33.646908600 0.012726s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2022-05-09T16:21:33.646908601 0.012790s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2022-05-09T16:21:33.646908602 0.012851s notice: Loading data from directory D:\\Fh\\4. Semester\\security\\Solve\\A05-2021---Security-Misconfiguration-main\\A05-2021---Security-Misconfiguration\\Database\\rethinkdb_data
+2022-05-09T16:21:33.710205700 0.075829s info: Automatically using cache size of 8129 MB
+2022-05-09T16:21:33.711707000 0.077568s notice: Listening for intracluster connections on port 29015
+2022-05-09T16:21:33.859706600 0.225441s notice: Listening for client driver connections on port 28015
+2022-05-09T16:21:33.859706601 0.225581s notice: Listening for administrative HTTP connections on port 8080
+2022-05-09T16:21:33.859706602 0.225583s notice: Listening on cluster address: 127.0.0.1
+2022-05-09T16:21:33.859706603 0.225584s notice: Listening on driver address: 127.0.0.1
+2022-05-09T16:21:33.859706604 0.225600s notice: Listening on http address: 127.0.0.1
+2022-05-09T16:21:33.859706605 0.225601s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-05-09T16:21:33.859706606 0.225602s notice: Server ready, "LAPTOP_MR7RHJUT_nvu" 7b0857db-f076-4537-a723-c57445be54a1
+2022-05-09T16:21:34.385884600 0.751539s notice: A newer version of the RethinkDB server is available: 2.4.0. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2022-05-09T16:21:34.884320000 1.249941s info: Table 0a62fd7c-7a42-4e2c-8a77-9af507d28aba: Starting a new Raft election for term 16.
+2022-05-09T16:21:34.956453400 1.322358s info: Table 0a62fd7c-7a42-4e2c-8a77-9af507d28aba: This server is Raft leader for term 16. Latest log index is 42.
+2022-05-09T16:21:35.168438500 1.534003s info: Table ddcbc30b-caad-408e-b224-28724c9b4dd9: Starting a new Raft election for term 14.
+2022-05-09T16:21:35.315036600 1.680790s info: Table ddcbc30b-caad-408e-b224-28724c9b4dd9: This server is Raft leader for term 14. Latest log index is 38.
+2022-05-09T16:21:35.351662300 1.717219s info: Table 99c575e0-085c-41db-8933-4896a9552027: Starting a new Raft election for term 58.
+2022-05-09T16:21:35.450907100 1.816460s info: Table 52291cc9-499c-42f6-a0b9-02af8970dd02: Starting a new Raft election for term 15.
+2022-05-09T16:21:35.464906900 1.830743s info: Table 99c575e0-085c-41db-8933-4896a9552027: This server is Raft leader for term 58. Latest log index is 168.
+2022-05-09T16:21:35.573483500 1.939040s info: Table e9aafa51-b7a6-4ab4-a056-91af27dc0ae1: Starting a new Raft election for term 16.
+2022-05-09T16:21:35.581515500 1.947274s info: Table 52291cc9-499c-42f6-a0b9-02af8970dd02: This server is Raft leader for term 15. Latest log index is 40.
+2022-05-09T16:21:35.715183700 2.080868s info: Table e9aafa51-b7a6-4ab4-a056-91af27dc0ae1: This server is Raft leader for term 16. Latest log index is 42.
+2022-05-09T16:21:35.756275300 2.121836s info: Table e8dcf1fb-e3eb-445b-b11a-fd0d1ae9dafd: Starting a new Raft election for term 57.
+2022-05-09T16:21:35.776332900 2.141873s info: Table a1e4b919-636d-4f96-97e1-3a86df7c8b2e: Starting a new Raft election for term 57.
+2022-05-09T16:21:35.940031400 2.305866s info: Table e8dcf1fb-e3eb-445b-b11a-fd0d1ae9dafd: This server is Raft leader for term 57. Latest log index is 167.
+2022-05-09T16:21:35.940031401 2.305904s info: Table a1e4b919-636d-4f96-97e1-3a86df7c8b2e: This server is Raft leader for term 57. Latest log index is 167.
