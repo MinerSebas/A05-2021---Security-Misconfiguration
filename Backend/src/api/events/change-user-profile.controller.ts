@@ -60,9 +60,7 @@ export class ChangeUserProfileController implements interfaces.Controller {
 
       if (!this.passWordHashingService.isPasswordHashed(request.body.oldPassword, userAccounts[0].passWord)) {
         return response.status(400).json({
-          error: `The old password \"${request.body.oldPassword}\" 
-          with the hash \"${hashedPassword}\"
-           and the hash \"${userAccounts[0].passWord}\" of the password found in the database do not match!`
+          error: `The password you entered is incorrect. Please try again`
         });
       }
 

@@ -59,8 +59,7 @@ export class UserAccountsController implements interfaces.Controller {
         if (!this.passWordHashingService.isPasswordHashed(passWord, result[0].passWord)) {
           if (backendConfiguration.debug) {
             return response.status(400).json({
-              error: `The password \"${passWord}\" with the hash
-              \"${passwordHash}\", does not match the hash \"${result[0].passWord}\" of the stored password!`
+              error: `The old password you entered does not match our records. Please try again.`
             });
           } else {
             return response.status(400).json({
